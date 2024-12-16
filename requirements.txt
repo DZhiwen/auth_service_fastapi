@@ -1,0 +1,16 @@
+email-validator
+fastapi
+uvicorn
+sqlmodel
+python-jose
+passlib
+python-multipart
+psycopg2-binary
+redis
+python-dotenv
+bcrypt==3.2.2
+pydantic[email]
+passlib[bcrypt]
+pydantic<2.0
+
+
