@@ -2,9 +2,8 @@ from sqlmodel import Session, select
 from app.models import User, LoginHistory
 from typing import List
 
-from datetime import datetime, timezone
 from pydantic import EmailStr
-from sqlmodel import SQLModel, Field, Session, select
+from sqlmodel import Session, select
 from typing import Optional  
 
 
